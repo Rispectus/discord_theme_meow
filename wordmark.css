@@ -1,18 +1,10 @@
 .wordmark_a934d8 path {
     display: none !important;
 }
-
 html.theme-dark .wordmark_a934d8::before {
-    content: "‏‏‎ d s s p i x) )";
+    content: "‏‏‎ d s s p i x ) )";
     font-size: 14px;
     position: fixed;
-    color: rgb(191, 162, 202);
-    backdrop-filter: blur(var(--window-blur));
-    border-radius: 5px;
-    pointer-events: all;
-    transition: 1s ease-in-out;
-}
-
-.wordmark_a934d8:hover:before {
-    letter-spacing: 0.5px;
+    color: rgb(172, 78, 206);
+    background: var(--window-colour);
 }
