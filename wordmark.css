@@ -1,7 +1,20 @@
+/*discord wordmark*/
+    .wordmark_a934d8 path {
+        display: none !important;
+    }
+
 html.theme-dark .wordmark_a934d8::before {
     content: "‏‏‎ d s s p i x ) )";
     font-size: 14px;
     position: fixed;
     color: rgb(172, 78, 206);
     background: var(--window-colour);
+    backdrop-filter: blur(var(--window-blur));
+    pointer-events: all;
+    transition: 0.5s ease-in-out;
+}
+
+.wordmark_a934d8:hover:before {
+    content: "‏‏‎ d s s p i x ) )";
+    letter-spacing: 2px;
 }
