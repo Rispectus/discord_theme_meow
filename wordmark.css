@@ -1,6 +1,3 @@
-.wordmark_a934d8 path {
-    display: none !important;
-}
 html.theme-dark .wordmark_a934d8::before {
     content: "‏‏‎ d s s p i x ) )";
     font-size: 14px;
